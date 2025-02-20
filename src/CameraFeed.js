@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import axios from "axios";
+const API_URL = "https://ai-ar-backend.onrender.com/analyze"; // Your Render backend URL
+
 
 const CameraFeed = () => {
   const webcamRef = useRef(null);
